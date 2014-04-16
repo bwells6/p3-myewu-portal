@@ -1,1 +1,25 @@
 /* My Styles */
+
+header{
+	position:relative;
+}
+header h1{
+	position:absolute;
+	left:30px;
+	bottom:0;
+	font-size:2em;
+}
+/*col 2*/
+.tabs-content{
+	border: 1px solid black;
+    border-top: none;
+    padding:10px;
+}
+/*column 2 style*/
+.panel.callout {
+	background: rgba(86, 135, 153, 0.74);
+}
+
+.reveal-modal-bg{
+	background: black;
+}
