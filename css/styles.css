@@ -23,3 +23,10 @@ header h1{
 .reveal-modal-bg{
 	background: black;
 }
+
+/*orbit slider*/
+
+.orbit-container .orbit-slides-container li .orbit-caption{
+	background-color: red;
+	padding:20px;
+}

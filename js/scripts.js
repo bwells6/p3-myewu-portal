@@ -1,5 +1,12 @@
 // foundations
-$(document).foundation();
+$(document).foundation({
+
+	orbit : {
+		bullets: false,
+		animation: "fade"
+	}
+
+});
 
 // modal
 $('#myModal').foundation('reveal', 'open');
