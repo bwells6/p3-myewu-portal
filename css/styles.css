@@ -1,4 +1,7 @@
 /* My Styles */
+body{
+	background: #C4C42A;
+}
 
 header{
 	position:relative;
@@ -17,8 +20,14 @@ header h1{
 
 .button-group li > button, .button-group li .button{
 	border-radius: 2px;
-	background: red;
 
+}
+
+.button-group li > button, .button-group li .button:hover{
+	background: red;
+}
+label {
+  display:block;
 }
 
 /*col 2*/
