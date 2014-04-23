@@ -34,7 +34,7 @@ header h1{
 }
 
 .button-group li > button, .button-group li .button:hover{
-	background: #2AC476;
+	background: #F0E1D0;
 }
 label {
   display:block;
@@ -60,13 +60,30 @@ label {
 	background: #DDCAB3;
 	font-family: 'Poiret One', cursive;
 }
+.accordion dd > a {
+	background: #DDCAB3;
+}
 
 .accordion dd.active > a{
-	background: red;
+	background: #DDCAB3;
 }
 
 .reveal-modal-bg{
 	background: black;
+}
+.accordion dd > a:hover{
+	background: #F0E1D0;
+}
+.panel.callout a:not(.button){
+	color:#EE3624;
+	font-family: 'Poiret One', cursive;
+}
+.panel.callout a:not(.button):hover{
+	color:#D39690;
+}
+.accordion dd > a{
+	color:#EE3624;
+	font-family: 'Poiret One', cursive;
 }
 
 
