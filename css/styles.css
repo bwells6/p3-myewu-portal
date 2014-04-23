@@ -9,6 +9,18 @@ header h1{
 	bottom:0;
 	font-size:2em;
 }
+.eagle{
+	position:absolute;
+	left:30px;
+	bottom:220px;
+}
+
+.button-group li > button, .button-group li .button{
+	border-radius: 2px;
+	background: red;
+
+}
+
 /*col 2*/
 .tabs-content{
 	border: 1px solid black;
