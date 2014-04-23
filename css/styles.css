@@ -1,6 +1,12 @@
 /* My Styles */
 body{
-	background: #C4C42A;
+	background: url("http://bwells6.github.io/p2-user-style-tile/img/congruent_pentagon.png");
+	color:gray;
+	font-family: 'Poiret One', cursive;
+}
+h2, h3{
+	font-family: 'Poiret One', cursive;
+	color:#EE3624;
 }
 
 header{
@@ -10,7 +16,9 @@ header h1{
 	position:absolute;
 	left:30px;
 	bottom:0;
-	font-size:2em;
+	font-size:3em;
+	color:#EE3624;
+	font-family: 'Kristi', cursive;
 }
 .eagle{
 	position:absolute;
@@ -20,14 +28,25 @@ header h1{
 
 .button-group li > button, .button-group li .button{
 	border-radius: 2px;
-
+	color:#EE3624;
+	background: #DDCAB3;
+	font-family: 'Poiret One', cursive;
 }
 
 .button-group li > button, .button-group li .button:hover{
-	background: red;
+	background: #2AC476;
 }
 label {
   display:block;
+  font-family: 'Poiret One', cursive;
+}
+.button-bar{
+	float:right;
+	
+}
+#chord{
+	height:400px;
+	color:red;
 }
 
 /*col 2*/
@@ -38,16 +57,20 @@ label {
 }
 /*column 2 style*/
 .panel.callout {
-	background: rgba(86, 135, 153, 0.74);
+	background: #DDCAB3;
+	font-family: 'Poiret One', cursive;
+}
+
+.accordion dd.active > a{
+	background: red;
 }
 
 .reveal-modal-bg{
 	background: black;
 }
 
-/*orbit slider*/
 
-.orbit-container .orbit-slides-container li .orbit-caption{
-	background-color: red;
-	padding:20px;
-}
+
+
+
+
